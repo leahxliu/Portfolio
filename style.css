@@ -1,0 +1,315 @@
+
+body{
+    margin: 0;
+}
+/*HEADER*/
+#headerTitle{
+    font-family: 'Work Sans-bold', sans-serif;
+    text-align: center;
+    font-size: 36pt;
+    margin-bottom: 24px;
+    margin-top: 36px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    border-bottom: 3px solid #000000;
+}
+.active, .btn:hover{
+    border-bottom: 3px solid #000000;
+}
+.navBar{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.navBar ul{
+    display: flex;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    width: 750px;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+/*-----------GRIDS---------------*/
+#content{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 220px 220px 220px;
+    gap: 10px 10px;
+    width: 960px;
+    height: 680px;
+    align-content: center;
+    justify-content: center;
+}
+.graphicDesign{
+    grid-template-rows: 220px 220px;
+    height: 460px;
+}
+.uiDesign{
+    grid-template-rows: 220px;
+    height: 220px;
+}
+
+/*--------------CARDS--------------------*/
+.card { 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#oldMeetsNew img{
+    object-position: 20%;
+}
+#noodlesPoster img{
+    object-position: 0 100%;
+}
+#awareSpread img{
+    object-position: 0;
+}
+#outTheDoor img{
+    object-position: 0 25%;
+}
+#chairInteraction img{
+    object-position: 0 15%;
+}
+#gameWars img{
+    object-position: 0 0;
+}
+#honey3d img{
+    object-position: 0 25%;
+}
+#coderrect img{
+    object-fit: contain;
+}
+#farmToTable img{
+    object-position: 15%;
+}
+
+/*---------------HOVER ACTIONS----------------*/
+.tile{
+    position: relative;
+}
+.infoTile{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    height: 60px;
+    background-color: white;
+}
+.tall{
+    height: 80px;
+    opacity: 0;
+}
+.tile:hover .infoTile{
+    opacity: 1;
+}
+.tile:hover{
+    box-shadow: 4px 3px 6px rgb(201, 201, 201);
+}
+
+.infoTile h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 4px;
+    line-height: 20px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+.infoTile p{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: -4px;
+    margin-left: 4px;
+}
+
+/*---------------DISPLAY PAGES-------------------*/
+.display{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.displayPage{
+    padding-top: 40px;
+    width: 1100px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.imageBox{
+    height: 550px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.multiImage{
+    display: grid;
+    grid-row: 550px 550px 550px;
+    height: 1670px;
+    gap: 10px;
+}
+#noodlePosterImages{
+    grid-row: 550px 550px 550px 550px;
+    height: 2200px;
+}
+#theOneImages{
+    grid-row: 550px 550px;
+    height: 1120px;
+}
+#coderrectImages{
+    grid-row: 550px 550px 550px 550px;
+    height: 2200px;
+}
+#fiveImages{
+    grid-row: 550px 550px 550px 550px 550px;
+    height: 2770px;
+}
+.prototypingPage{
+    height: 3400px;
+}
+#prototypingImage{
+    height: 3400px;
+}
+.displayImage{
+    object-fit: contain;
+    width: 100%;
+    height: 550px;
+}
+
+.text{
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 50px;
+    width: 300px;
+    justify-content: right;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.text h1{
+    font-size: 32pt;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 30pt;
+}
+.text h3{
+    padding-top: 16px;
+    font-size: 18pt;
+    font-weight: normal;
+    margin-top: 2px;
+    line-height: 20pt;
+}
+
+
+/*-------------------buttons-----------------*/
+#exit{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 24px;
+}
+#next{
+    top: 50%;
+    right: 16px;
+    position: fixed;
+    height: 40px;
+}
+#previous{
+    top: 50%;
+    left: 16px;
+    position: fixed;
+    height: 40px;
+}
+
+/*---------------ABOUT PAGE----------------*/
+#boundingBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#aboutBox{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#aboutTextBox{
+    width: 610px;
+}
+#aboutTextBox h1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24pt;
+    margin: 0;
+}
+#aboutText{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12pt;
+}
+#aboutTextBox h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 0;
+    padding-top: 40px;
+}
+#contactText{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12pt;
+}
+
+#profilePicture{
+    width: 145px;
+    height: 145px;
+    align-self: center;
+}
+
+/*---------------FOOTER---------------------*/
+.footer p{
+    font-family: 'Work Sans', sans-serif;
+}
+.footer{
+    padding-top: 100px;
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.footerSM{
+    display: inline-flex;
+    align-items: center;
+}
+.footerSM a img{
+    width: 24px;
+    padding-left: 20px;
+}
+#footerElements{
+    display: flex;
+    width: 750px;
+    justify-items: center;
+    justify-content: space-between;
+}
