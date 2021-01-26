@@ -219,6 +219,9 @@ a{
     line-height: 20pt;
 }
 
+.text a{
+    color:#3B79B3;
+}
 
 /*-------------------buttons-----------------*/
 #exit{
