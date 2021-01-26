@@ -47,9 +47,9 @@ a{
     display: inline-grid;
     grid-template-columns: 220px 220px 220px 220px;
     grid-template-rows: 220px 220px 220px;
-    gap: 10px 10px;
-    width: 960px;
     height: 680px;
+    width: 960px;
+    gap: 10px 10px;
     align-content: center;
     justify-content: center;
 }
