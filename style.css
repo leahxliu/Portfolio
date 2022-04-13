@@ -270,6 +270,7 @@ a{
 #aboutText{
     font-family: 'Work Sans', sans-serif;
     font-size: 12pt;
+    line-height: 14pt;
 }
 #aboutTextBox h2{
     font-family: 'DM Sans', sans-serif;
