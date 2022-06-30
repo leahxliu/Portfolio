@@ -45,22 +45,22 @@ a{
 }
 .grid-container {
     display: inline-grid;
-    grid-template-columns: 220px 220px 220px 220px;
-    grid-template-rows: 220px 220px 220px;
-    height: 680px;
-    width: 960px;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 280px 280px 280px;
+    /* height: 680px;
+    width: 960px; */
     gap: 10px 10px;
     align-content: center;
     justify-content: center;
 }
-.graphicDesign{
+/* .graphicDesign{
     grid-template-rows: 220px 220px;
     height: 460px;
 }
 .uiDesign{
     grid-template-rows: 220px;
     height: 220px;
-}
+} */
 
 /*--------------CARDS--------------------*/
 .card { 
@@ -112,7 +112,7 @@ a{
     opacity: 0;
     position: absolute;
     bottom: 0;
-    width: 220px;
+    width: 100%;
     height: 60px;
     background-color: white;
 }
@@ -232,13 +232,13 @@ a{
 }
 #next{
     top: 50%;
-    right: 16px;
+    left: 16px;
     position: fixed;
     height: 40px;
 }
 #previous{
     top: 50%;
-    left: 16px;
+    right: 16px;
     position: fixed;
     height: 40px;
 }
@@ -269,8 +269,8 @@ a{
 }
 #aboutText{
     font-family: 'WorkSans', sans-serif;
-    font-size: 12pt;
-    line-height: 14pt;
+    font-size: 13pt;
+    line-height: 16pt;
 }
 #aboutTextBox h2{
     font-family: 'DM Sans', sans-serif;
