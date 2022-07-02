@@ -7,7 +7,7 @@ body{
     font-family: 'Work Sans-bold', sans-serif;
     text-align: center;
     font-size: 36pt;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
     margin-top: 36px;
 }
 a{
@@ -39,7 +39,7 @@ a{
 
 /*-----------GRIDS---------------*/
 #content{
-    padding-top: 70px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
 }
