@@ -167,23 +167,23 @@ a{
     display: grid;
     grid-row: 550px 550px 550px;
     height: 1670px;
-    gap: 10px;
-}
-#noodlePosterImages{
-    grid-row: 550px 550px 550px 550px;
-    height: 2200px;
+    gap: 5px;
 }
 #theOneImages{
     grid-row: 550px 550px;
     height: 1120px;
 }
-#coderrectImages{
+#fourImages{
     grid-row: 550px 550px 550px 550px;
     height: 2200px;
 }
 #fiveImages{
     grid-row: 550px 550px 550px 550px 550px;
-    height: 2770px;
+    height: 2750px;
+}
+#sixImages{
+    grid-row: 550px 550px 550px 550px 550px 550px;
+    height: 3600px;
 }
 .prototypingPage{
     height: 3400px;
@@ -225,22 +225,22 @@ a{
 
 /*-------------------buttons-----------------*/
 #exit{
-    top: 20px;
-    right: 20px;
+    top: 24px;
+    right: 24px;
     position: absolute;
-    width: 24px;
+    width: 20px;
 }
 #next{
     top: 50%;
     left: 16px;
     position: fixed;
-    height: 40px;
+    height: 30px;
 }
 #previous{
     top: 50%;
     right: 16px;
     position: fixed;
-    height: 40px;
+    height: 30px;
 }
 
 /*---------------ABOUT PAGE----------------*/
