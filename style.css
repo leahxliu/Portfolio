@@ -169,7 +169,7 @@ a{
     height: 1670px;
     gap: 5px;
 }
-#theOneImages{
+#twoImages{
     grid-row: 550px 550px;
     height: 1120px;
 }
@@ -226,19 +226,19 @@ a{
 /*-------------------buttons-----------------*/
 #exit{
     top: 24px;
-    right: 24px;
-    position: absolute;
+    right: 30px;
+    position: fixed;
     width: 20px;
 }
 #next{
     top: 50%;
-    left: 16px;
+    left: 30px;
     position: fixed;
     height: 30px;
 }
 #previous{
     top: 50%;
-    right: 16px;
+    right: 30px;
     position: fixed;
     height: 30px;
 }
