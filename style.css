@@ -78,8 +78,8 @@ a{
 #oldMeetsNew img{
     object-position: 20%;
 }
-#noodlesPoster img{
-    object-position: 0 100%;
+#restingCrane img{
+    object-position: 0 30%;
 }
 #awareSpread img{
     object-position: 50%;
@@ -199,10 +199,10 @@ a{
 
 .text{
     font-family: 'DM Sans', sans-serif;
-    padding-left: 50px;
-    width: 300px;
+    padding-left: 30px;
+    width: 330px;
     justify-content: right;
-    padding-right: 40px;
+    padding-right: 60px;
     padding-top: 20px;
 }
 .text h1{
@@ -212,7 +212,7 @@ a{
     line-height: 30pt;
 }
 .text h3{
-    padding-top: 16px;
+    padding-top: 8px;
     font-size: 18pt;
     font-weight: normal;
     margin-top: 2px;
